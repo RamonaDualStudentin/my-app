@@ -46,7 +46,7 @@ const CustomerDetailsPage = () => {
       <div className="feedback">
         <label>How did you hear about us?</label>
         <select>
-          <option value="wordOfMouth">Word of Mouth</option>
+          <option value="Please select">Please select</option>
           {/* Add other options as needed */}
         </select>
 
