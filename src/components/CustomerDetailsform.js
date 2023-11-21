@@ -1,7 +1,7 @@
 
-
 import React from 'react';
-import 'components./CustomerDetailsform.css';
+import './CustomerDetailsform.css';
+
 
 function CustomerDetailsform() {
   return (
@@ -74,7 +74,7 @@ function CustomerDetailsform() {
           </select>
         </div>
 
-        <button className="submit-button">Submit</button>
+
       </div>
     </div>
   );
