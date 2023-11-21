@@ -6,22 +6,28 @@ import './CustomerDetailsform.css';
 function CustomerDetailsform() {
   return (
     <div className="customer-details-container">
-      {/* Header Section */}
-      <div className="header">
-        <img src="path/to/your/logo.png" alt="Logo" />
-        <h1>Your Company Name</h1>
-      </div>
+
+
 
       {/* Customer Details  */}
       <div className="customer-details">
-        <div className="full-name">
-          <label>First Name:</label>
-          <input type="text" placeholder="First Name" />
-          <label>Last Name:</label>
-          <input type="text" placeholder="Last Name" />
-        </div>
+        <label>Customer  Details :</label>
 
-        <div className="address">
+      </div>
+
+      <div className="Full Name">
+        <label htmlFor="full-name">Full Name*</label>
+        <div className="name-fields">
+          <input type="text" id="first-name" name="first-name" placeholder="First Name" required />
+          <input type="text" id="last-name" name="last-name" placeholder="Last Name" required />
+        </div>
+      </div>
+      <div className="address">
+        <label htmlFor="address">Address*</label>
+
+        <div className="adress-fields">
+
+
           <label>Street Address</label>
           <input type="text" placeholder="Street Address" />
           <label>Street Address Line 2:</label>

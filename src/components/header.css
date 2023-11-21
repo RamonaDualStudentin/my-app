@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    color: black
+}
+
+.header img {
+    max-height: 50px;
+    margin-right: 10px;
+}
+
+.header h1 {
+    margin: 0;
+}

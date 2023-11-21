@@ -1,3 +1,10 @@
+.submit-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .submit-button {
     background-color: #4CAF50;
     color: white;
@@ -6,7 +13,6 @@
     border-radius: 5px;
     cursor: pointer;
 }
-
 
 .submit-button:hover {
     background-color: #45a049;
