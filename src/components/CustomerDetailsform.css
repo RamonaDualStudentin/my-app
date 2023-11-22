@@ -14,6 +14,12 @@
   margin-bottom: 16px;
 }
 
+.customer-details-form .address-fields {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
 .customer-details-form input {
   flex: 1;
   padding: 8px;
@@ -41,11 +47,22 @@
   margin-top: 20px;
 }
 
-.full-name,
-.address,
-.phone-email {
-  margin-bottom: 20px;
+.full-name::after,
+.address::after,
+.phone-number::after,
+.email::after {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+
+  padding: 20px;
+
+  ;
 }
+
+
 
 .feedback {
   margin-top: 20px;
