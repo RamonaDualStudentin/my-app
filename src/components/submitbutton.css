@@ -1,7 +1,7 @@
 .submit-button-container {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     height: 100vh;
 }
 
@@ -12,6 +12,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+
 }
 
 .submit-button:hover {
