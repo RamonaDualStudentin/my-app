@@ -7,6 +7,7 @@ function Header() {
             <img src="path/to/your/logo.png" alt="Logo" />
             <h1>ACME GLOBAL COMPANY</h1>
 
+
         </div>
     );
 }
