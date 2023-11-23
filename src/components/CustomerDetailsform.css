@@ -6,11 +6,14 @@
   display: block;
   margin-bottom: 8px;
   color: #555;
+  align-items: center;
+  justify-content: center;
 }
 
 .customer-details-form .name-fields {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 16px;
 }
 
@@ -18,6 +21,8 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 16px;
+  align-items: center;
+  justify-content: center;
 }
 
 .customer-details-form input {
@@ -33,7 +38,9 @@
 .customer-details-container {
   max-width: 1600px;
   margin: 0 auto;
+
 }
+
 
 
 .header {

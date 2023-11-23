@@ -7,8 +7,6 @@ function CustomerDetailsform() {
   return (
     <div className="customer-details-container">
 
-
-
       {/* Customer Details  */}
       <div className="customer-details">
         <label>Customer  Details :</label>
@@ -49,6 +47,13 @@ function CustomerDetailsform() {
           <input type="text" id="Postal / Zip Code" name="Postal / Zip Code" placeholder="Postal / Zip Code" required />
         </div>
 
+        <div class="form-group">
+          <label >Example file input</label>
+          <input type="file" class="form-control-file" id="Exemple file " />
+        </div>
+
+
+
         <div className="phone-number">
           <label>Phone Number* </label>
 
@@ -60,7 +65,6 @@ function CustomerDetailsform() {
           <input type="text" id="email" name="email" placeholder="ex:email@yahoo.com" required />
         </div>
       </div>
-
       {/* Feedback Section */}
       <div className="feedback">
         <label>How did you hear about us?* </label>
@@ -74,19 +78,21 @@ function CustomerDetailsform() {
 
         <div className="please-specify">
           <label>Please specify* </label>
-          <input type="text" />
+          <textarea class="form-control" id="Please specify" rows="3"></textarea>
 
 
         </div>
 
         <div className="feedback-comment">
           <label>Feedback about us: </label>
-          <input type="text" />
+          <textarea class="form-control" id="Please specify" rows="3"></textarea>
+
         </div>
 
         <div className="suggestions">
           <label>Suggestions if any for further improvement: </label>
-          <input type="text" />
+          <textarea class="form-control" id="Please specify" rows="3"></textarea>
+
         </div>
 
         <div className="recommendation">
@@ -97,9 +103,14 @@ function CustomerDetailsform() {
             <option value="maybe">Maybe</option>
           </select>
         </div>
+        <div className="References">
+          <label>Please give reference of any two people whom you feel : </label>
+          <createTable />
+        </div>
 
 
       </div>
+
     </div>
   );
 };

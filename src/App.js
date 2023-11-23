@@ -3,6 +3,8 @@ import './App.css';
 import CustomerDetailsform from './components/CustomerDetailsform';
 import SubmitButton from './components/submitbutton';
 import Header from './components/header';
+import createTable from './components/table';
+
 
 
 function App() {
@@ -11,6 +13,9 @@ function App() {
             <Header />
             <CustomerDetailsform />
             <SubmitButton />
+            <createTable />
+
+
 
 
         </div>
