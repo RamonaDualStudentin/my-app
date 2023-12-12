@@ -2,21 +2,31 @@
   display: flex;
   align-items: center;
   padding: 1rem;
- }
- 
- .quick-select-title {
+}
+
+.h2 {
+  font-size: large;
+  font-weight: bold;
+}
+.quick-select-title {
   color: white;
   margin-right: 1rem;
- }
- 
- .quick-select-search {
+  text-align: left;
+}
+
+.quick-select-search {
   background-color: #444;
   border: none;
   border-radius: 25px;
   color: white;
   padding: 0.5rem 1rem;
- }
- 
- .quick-select-search:focus {
+  text-align: right;
+}
+
+.quick-select-search:focus {
   outline: none;
- }
+}
+
+.switch {
+  color: orangered;
+}
