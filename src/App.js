@@ -10,6 +10,18 @@ import zone from "./components/zone";
 
 function App() {
 
+    const serviceRequestcards = [
+        { title: 'Card 1'},
+        { title: 'Card 2', },
+        { title: 'Card 3',  },
+        { title: 'Card 4',  },
+
+    ];
+
+    const regioncards=[
+
+    ];
+
     
   return (
     <div className="App">
