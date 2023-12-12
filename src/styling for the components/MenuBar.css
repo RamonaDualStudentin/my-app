@@ -2,6 +2,7 @@
   display: flex;
  justify-content: space-between;
  align-items: center;
- background-color: #333;
+ background-color: #f5eeee;
  padding: 1rem;
+ color: grey;
 }

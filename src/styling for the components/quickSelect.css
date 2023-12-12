@@ -9,16 +9,16 @@
   font-weight: bold;
 }
 .quick-select-title {
-  color: white;
+  color: black;
   margin-right: 1rem;
   text-align: left;
 }
 
 .quick-select-search {
-  background-color: #444;
+  background-color: white;
   border: none;
   border-radius: 25px;
-  color: white;
+  color: gray;
   padding: 0.5rem 1rem;
   text-align: right;
 }
