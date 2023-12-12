@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
+import "./styling for the components/MenuBar.css";
 
 function MenuBar() {
   return (

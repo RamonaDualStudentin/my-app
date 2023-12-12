@@ -11,13 +11,14 @@ import zone from "./components/zone";
 function App() {
   return (
     <div className="App">
-      <MenuBar />
+      
+      {/* <MenuBar />
       <quickSelect />
       <region />
       <regioncards />
       <serviceRequest />
       <serviceRequestcards />
-      <zone />
+  <zone />*/}
     </div>
   );
 }
