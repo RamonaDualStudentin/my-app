@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <MenuBar />
-      <quickSelect />;
+      <quickSelect />
       <region />
       <regioncards />
       <serviceRequest />
