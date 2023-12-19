@@ -1,5 +1,5 @@
 import React from "react";
-import "./styling for the components/quickSelect.css";
+import "src/styling for the components/quickSelect.css";
 
 function quickSelect() {
   return( <div className="quickSelect">
