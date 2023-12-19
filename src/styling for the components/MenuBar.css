@@ -6,3 +6,7 @@
  padding: 1rem;
  color: grey;
 }
+
+.mr-auto{
+  align-items: left;
+}
