@@ -1,0 +1,24 @@
+
+
+ .MenuBar{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color:white;
+ padding: 1rem;
+ color: black
+}
+
+.navbar-brand{
+
+}
+
+
+.navbar-toggle{
+
+}
+
+
+#basic-navbar-nav{
+  align-items: t;
+}
