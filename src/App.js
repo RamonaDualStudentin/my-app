@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./styling for the components/App.css";
 import MenuBar from "./MenuBar";
 import QuickSelect from "./quickSelect";
 import Region from "./region";
@@ -14,11 +14,14 @@ function App() {
     <div className="App">
       <MenuBar />
       <QuickSelect/>
-      <Region />
-      <Regioncards />
+      <Zone />
       <ServiceRequest />
       <ServiceRequestcards />
-      <Zone />
+      <Region />
+      <Regioncards />
+      
+      
+      
     </div>
   );
 }
