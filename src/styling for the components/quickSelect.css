@@ -21,7 +21,10 @@
   color: gray;
   padding: 0.5rem 1rem;
   text-align: right;
+  width: 200px; 
+  display: inline-block;
 }
+
 
 .quick-select-search:focus {
   outline: none;
@@ -29,4 +32,10 @@
 
 .switch {
   color: orangered;
+  display: inline-block;
+  margin-right: 10px;
+  
 }
+
+
+  
