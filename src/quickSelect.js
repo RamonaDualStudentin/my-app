@@ -1,7 +1,7 @@
 import React from "react";
 import "./styling for the components/quickSelect.css";
 
-function quickSelect() {
+function QuickSelect() {
   
   return( 
   <div className="quickSelect">
@@ -22,4 +22,4 @@ function quickSelect() {
   );
 }
 
-export default quickSelect;
+export default QuickSelect ;

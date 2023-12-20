@@ -1,6 +1,6 @@
 import React from "react";
 
-function serviceRequest() {
+function ServiceRequest() {
   return( 
   <div className="serviceRequest">
 
@@ -8,4 +8,4 @@ function serviceRequest() {
   );
 }
 
-export default serviceRequest;
+export default ServiceRequest;

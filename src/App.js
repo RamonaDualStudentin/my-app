@@ -1,24 +1,24 @@
 import React from "react";
 import "./App.css";
 import MenuBar from "./MenuBar";
-import quickSelect from "./quickSelect";
-import region from "./region";
-import regioncards from "./regioncards";
-import serviceRequest from "./serviceRequest";
-import serviceRequestcards from "./serviceRequestcards";
-import zone from "./zone";
+import QuickSelect from "./quickSelect";
+import Region from "./region";
+import Regioncards from "./regioncards";
+import ServiceRequest from "./serviceRequest";
+import ServiceRequestcards from "./serviceRequestcards";
+import Zone from "./zone";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <div className="App">
       <MenuBar />
-      <quickSelect/>
-      <region />
-      <regioncards />
-      <serviceRequest />
-      <serviceRequestcards />
-      <zone />
+      <QuickSelect/>
+      <Region />
+      <Regioncards />
+      <ServiceRequest />
+      <ServiceRequestcards />
+      <Zone />
     </div>
   );
 }

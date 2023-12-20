@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function region() {
+function Region() {
   return(
   <div className="region">
     
@@ -9,4 +9,4 @@ function region() {
   ) ;
 }
 
-export default region;
+export default Region;

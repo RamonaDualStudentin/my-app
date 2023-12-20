@@ -1,6 +1,6 @@
 import React from "react";
 
-function serviceRequestcards ()
+function ServiceRequestcards ()
  {
   return (
   <div className="serviceRequestcards">
@@ -9,4 +9,4 @@ function serviceRequestcards ()
   );
 }
 
-export default serviceRequestcards;
+export default ServiceRequestcards;

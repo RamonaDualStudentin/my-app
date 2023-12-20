@@ -1,7 +1,7 @@
 import React from "react";
 
-const regioncards = ({ title, zone, region }) => {
+const Regioncards = ({ title, zone, region }) => {
   return <div className="regioncards"></div>;
 };
 
-export default regioncards;
+export default Regioncards;
