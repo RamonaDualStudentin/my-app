@@ -25,5 +25,4 @@ function MenuBar() {
     </div>
   );
 }
-
 export default MenuBar;
