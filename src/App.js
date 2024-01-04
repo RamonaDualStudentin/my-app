@@ -6,7 +6,7 @@ import Region from "./region";
 import Regioncards from "./regioncards";
 import ServiceRequest from "./serviceRequest";
 import ServiceRequestcards from "./serviceRequestcards";
-import Zone from "./zone";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <MenuBar />
       <QuickSelect/>
-      <Zone />
+      
       <ServiceRequest />
       <ServiceRequestcards />
       <Region />
