@@ -1,0 +1,12 @@
+.icons {
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #3498db; 
+  color: #ffffff; 
+}
+
+.icons:hover {
+  background-color: #2980b9; 
+}
