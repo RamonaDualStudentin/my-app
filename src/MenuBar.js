@@ -3,6 +3,7 @@ import { Navbar, Nav } from "react-bootstrap";
 
 import "./styling for the components/navbar.css";
 
+
 function MenuBar() {
   return (
     <div className="MenuBar">
