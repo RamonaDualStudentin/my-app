@@ -1,21 +1,21 @@
-import React from "react";
-import "./styling for the components/serviceRequestcards.css";
+import React from 'react';
+import ChangeDetectedParagraph from './ChangeDetectedParagraph';
+import ZoneParagraph from './ZoneParagraph';
+import StatusParagraph from './StatusParagraph';
+import OtherBalancesParagraph from './OtherBalancesParagraph';
 
-
-    function ServiceRequestCard({ changeDetected, zone, status, otherBalances }) {
-      return (
-        <div class="card">
-          <div class="card-header">Substation Name</div>
-          <div class="card-body">
-            <p><strong>Change detected:</strong> {changeDetected}</p>
-            <p><strong>Zone:</strong> {zone}</p>
-            <p><strong>Status:</strong> {status}</p>
-            <strong>Other balances affected:</strong> {otherBalances}
-          </div>
-        </div>
-      );
-    }
-  
-
+const ServiceRequestCard = ({ changeDetected, zone, status, otherBalances }) => {
+ return (
+    <div class="card">
+      <div class="card-header">Substation Name</div>
+      <div class="card-body">
+        <ChangeDetectedParagraph changeDetected={changeDetected} />
+        <ZoneParagraph zone={zone} />
+        <StatusParagraph status={status} />
+        <OtherBalancesParagraph otherBalances={otherBalances} />
+      </div>
+    </div>
+ );
+};
 
 export default ServiceRequestCard;
