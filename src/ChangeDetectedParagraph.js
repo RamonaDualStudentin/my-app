@@ -1,7 +1,13 @@
 import React from 'react';
 
 const ChangeDetectedParagraph = ({ changeDetected }) => {
- return <p><strong>Change detected:</strong> {changeDetected}</p>;
+ return (
+ 
+
+ <div className="round-icon">
+      <p><strong>Change detected:</strong> {changeDetected}</p>
+    </div>
+  );
 };
 
 export default ChangeDetectedParagraph;

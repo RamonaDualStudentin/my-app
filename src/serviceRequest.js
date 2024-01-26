@@ -44,11 +44,7 @@ function ServiceRequest() {
       <div style={{ display: "flex", flexWrap: "wrap" }}>
         {cardData.map((card, index) => (
           <ServiceRequestCard
-            key={index}
-            changeDetected={card.changeDetected}
-            zone={card.zone}
-            status={card.status}
-            otherBalances={card.otherBalances}
+            
           />
         ))}
       </div>
