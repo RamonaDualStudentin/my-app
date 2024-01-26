@@ -1,5 +1,6 @@
 import React from "react";
 import ServiceRequestCard from "./serviceRequestcards";
+import "./styling for the components/serviceRequest.css";
 
 function ServiceRequest() {
   const cardData = [

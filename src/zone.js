@@ -1,5 +1,6 @@
 import React from "react";
 import Icons from "./zoneicons";
+import "./styling for the components/zone.css";
 
 function Zone() {
   const handleZoneClick = (zoneNumber) => {

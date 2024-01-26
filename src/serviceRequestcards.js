@@ -1,4 +1,6 @@
 import React from 'react';
+import "./styling for the components/serviceRequestcards.css";
+
 import ChangeDetectedParagraph from './ChangeDetectedParagraph';
 import ZoneParagraph from './ZoneParagraph';
 import StatusParagraph from './StatusParagraph';
