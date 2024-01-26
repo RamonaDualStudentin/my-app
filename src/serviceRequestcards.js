@@ -12,6 +12,7 @@ const ServiceRequestCard = ({ changeDetected, zone, status, otherBalances }) => 
       <div class="card-header">Substation Name</div>
       <div class="card-body">
         <ChangeDetectedParagraph changeDetected={changeDetected} />
+        <a class="review-changes-button" href="substation.html">Go to substation to review changes →</a>
         <ZoneParagraph zone={zone} />
         <StatusParagraph status={status} />
         <OtherBalancesParagraph otherBalances={otherBalances} />

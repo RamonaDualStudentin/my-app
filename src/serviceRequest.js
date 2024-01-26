@@ -42,8 +42,9 @@ function ServiceRequest() {
     <div className="serviceRequest">
       <h2>Your Service Requests</h2>
       <div style={{ display: "flex", flexWrap: "wrap" }}>
-        {cardData.map((card, index) => (
+        {cardData.map((card) => (
           <ServiceRequestCard
+       
             
           />
         ))}
